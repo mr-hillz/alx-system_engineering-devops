@@ -1,2 +1,10 @@
 #!/bin/bash
-echo "Best School" > \\\*\\\\"'\"Best School\"\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
+
+filename="*\\\\'\"Best School\"'\\\\*\\$\\?\\*\\*\\*\\*\\*\\*:)"
+
+# Create the file with the desired content
+echo -e "Best School\n" > "$filename"
+
+echo "File '$filename' created with the content 'Best School' ending by a new line."
+
+
